@@ -5,8 +5,8 @@
                 fetch="https://github.com" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="RONIN808/android_device_asus_X00TD" remote="github" revision="quartz" />
-        <project path="vendor/asus" name="RONIN808/proprietary_vendor_asus" remote="github" revision="quartz" />
-        <project path="kernel/asus/sdm660" name="RONIN/kernel_asus_sdm660_OldQ" remote="github" revision="Stardust" />
+        <project path="device/asus/X00T" name="RONIN808/android_device_asus_X00TQ" remote="github" revision="stable" />
+        <project path="vendor/asus" name="RONIN808/android_vendor_asus_X00TQ" remote="github" revision="stable" />
+        <project path="kernel/asus/sdm660" name="RONIN/kernel_asus_sdm660_1" remote="github" revision="master" />
   
 </manifest>
