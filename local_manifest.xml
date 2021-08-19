@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-        <remote name="RONIN808"
-                fetch="https://github.com/RONIN808" />
+  <remote name="RONIN808"
+          fetch="https://github.com/RONIN808" />
 
-        <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="RONIN808/device_asus_sdm660-common" remote="github" revision="Q" />
-        <project path="device/asus/X00TD" name="RONIN808/device_asus_X00TD" remote="github" revision="Q" />
-        <project path="vendor/asus" name="RONIN808/proprietary_vendor_asus" remote="github" revision="Q" />
-        <project path="kernel/asus/sdm660" name="RONIN808/kernel_asus_sdm660" remote="github" revision="master" />
-          
-        <!-- Hals stuff -->
-        <remove-project name="android_hardware_qcom_audio" />
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <project path="hardware/qcom-caf/msm8998/media" name="RONIN808/hardware_qcom-caf_media_msm8998" remote="github" revision="10" />
-        <project path="hardware/qcom-caf/msm8998/audio" name="RONIN808/hardware_qcom-caf_audio_msm8998" remote="github" revision="10" />
-        <project path="hardware/qcom-caf/msm8998/display" name="RONIN808/hardware_qcom-caf_display_msm8998" remote="github" revision="10" />  
+  <!-- Sync trees -->
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="RONIN808" revision="Q" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="RONIN808" revision="Q" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="RONIN808" revision="Q" clone-depth="1" />
+        <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="RONIN808" revision="master" clone-depth="1" />
 
 </manifest>
