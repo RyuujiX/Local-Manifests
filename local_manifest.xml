@@ -5,8 +5,9 @@
           fetch="https://github.com/RONIN808" />
 
   <!-- Sync trees -->
-        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="RONIN808" revision="10" clone-depth="1" />
-        <project path="vendor/asus" name="vendor_asus_X00TD" remote="RONIN808" revision="10" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="RONIN808" revision="Q" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="RONIN808" revision="Q" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="RONIN808" revision="Q" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="RONIN808" revision="master" clone-depth="1" />
 
 </manifest>
