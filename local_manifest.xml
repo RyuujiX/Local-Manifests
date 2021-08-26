@@ -11,6 +11,6 @@
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="RONIN808" revision="master" clone-depth="1" />
         
         <remove-project name="android_hardware_qcom_audio" />  
-        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="RONIN808" revision="10-msm8998" clone-depth="1" />  
+        <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/msm8998/audio" remote="RONIN808" revision="lineage-17.1-caf-msm8998" clone-depth="1" />  
           
 </manifest>
