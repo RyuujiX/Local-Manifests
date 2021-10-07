@@ -14,6 +14,6 @@
         <remove-project name="android_hardware_qcom_display" />
           
   <!-- Clone Hals -->        
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="RONIN808" revision="eleven" clone-depth="1" /> 
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="RONIN808" revision="eleven" clone-depth="1" /> 
 
 </manifest>
