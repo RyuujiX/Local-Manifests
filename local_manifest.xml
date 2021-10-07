@@ -5,9 +5,15 @@
           fetch="https://github.com/RONIN808" />
 
   <!-- Sync trees -->
-        <project path="device/asus/sdm660-common" name="android_device_asus_sdm660-common" remote="RONIN808" revision="arrow-11.0" clone-depth="1" />
-        <project path="device/asus/X00TD" name="device_asus_X00TD11" remote="RONIN808" revision="arrow" clone-depth="1" />
-        <project path="vendor/asus" name="android_vendor_asus_sdm660" remote="RONIN808" revision="eleven" clone-depth="1" />
+        <project path="device/asus/sdm660-common" name="device_asus_sdm660-common" remote="RONIN808" revision="arrow" clone-depth="1" />
+        <project path="device/asus/X00TD" name="device_asus_X00TD" remote="RONIN808" revision="arrow" clone-depth="1" />
+        <project path="vendor/asus" name="proprietary_vendor_asus" remote="RONIN808" revision="lineage-18.1" clone-depth="1" />
         <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="RONIN808" revision="master" clone-depth="1" />
-        
+          
+  <!-- Remove -->
+        <remove-project name="android_hardware_qcom_display" />
+          
+  <!-- Clone Hals -->        
+        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display_msm8998" remote="RONIN808" revision="eleven" clone-depth="1" /> 
+
 </manifest>
