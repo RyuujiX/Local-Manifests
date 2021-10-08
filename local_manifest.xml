@@ -12,8 +12,12 @@
           
   <!-- Remove -->
         <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_media" />  
           
   <!-- Clone Hals -->        
-        <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="RONIN808" revision="eleven" clone-depth="1" /> 
+        <project path="hardware/qcom-caf/msm8998/audio" name="hw_audio" remote="RONIN808" revision="eleven_caf_msm8998" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8998/display" name="hw_display" remote="RONIN808" revision="eleven_caf_msm8998" clone-depth="1" />
+        <project path="hardware/qcom-caf/msm8998/media" name="hw_media" remote="RONIN808" revision="eleven_caf_msm8998" clone-depth="1" />  
 
 </manifest>
