@@ -9,5 +9,15 @@
 		<project path="device/asus/sdm660-common" name="RyuujiX/android_device_asus_sdm660-common-4.19" remote="github" revision="sakura" />
         <project path="vendor/asus" name="RyuujiX/proprietary_vendor_asus-4.19" remote="github" revision="sakura" />
 		<project path="kernel/asus/sdm660" name="Atom-X-Devs/android_kernel_asus_sdm660" remote="github" revision="dot11" />
+		
+		 <!-- Remove -->
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_audio" />
+        <remove-project name="android_hardware_qcom_media" />  
+
+  <!-- Clone Hals -->        
+        <project path="hardware/qcom-caf/sdm660/audio" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_audio" remote="github" revision="sdm660" clone-depth="1" />
+        <project path="hardware/qcom-caf/sdm660/display" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_display" remote="github" revision="sdm660" clone-depth="1" />
+        <project path="hardware/qcom-caf/sdm660/media" name="Atom-X-Devs/android_hardware_qcom-caf_sdm660_media" remote="github" revision="sdm660" clone-depth="1" />
 
 </manifest>
