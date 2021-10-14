@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-        <remote name="RONIN808"
-                fetch="https://github.com/RONIN808" />
+        <remote name="RyuujiX"
+                fetch="https://github.com/RyuujiX" />
 
         <!-- Sync trees -->
-        <project path="device/asus/X00T" name="RONIN808/device_asus_X00T" remote="github" revision="10t" />
-        <project path="vendor/asus" name="RONIN808/vendor_asus" remote="github" revision="10" />
-        <project path="kernel/asus/sdm660" name="RONIN808/kernel_asus_sdm660-1" remote="github" revision="master" />
+		<remove-project name="device/asus/X01BD" />
+		<remove-project name="device/asus/sdm660-common" />
+        <project path="device/asus/X01BD" name="RyuujiX/android_device_asus_X01BD-4.19" remote="github" revision="sakura" />
+		<project path="device/asus/sdm660-common" name="RyuujiX/android_device_asus_sdm660-common-4.19" remote="github" revision="sakura" />
+        <project path="vendor/asus" name="RyuujiX/proprietary_vendor_asus-4.19" remote="github" revision="sakura" />
 
 </manifest>
